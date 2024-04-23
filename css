@@ -1,0 +1,38 @@
+body {
+  font-family: cursive, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  color: #c43d80;
+}
+
+#question {
+  margin-bottom: 20px;
+}
+
+#choices {
+  margin-bottom: 20px;
+}
+
+#submit {
+  background-color: #e4c2da;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #d490ac;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+}
